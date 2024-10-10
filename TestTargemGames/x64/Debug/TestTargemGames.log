@@ -1,0 +1,5 @@
+﻿  TestTargemGames.cpp
+E:\VSC\TestTargemGames\TestTargemGames\String.h(31,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+E:\VSC\TestTargemGames\TestTargemGames\String.h(48,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+E:\VSC\TestTargemGames\TestTargemGames\String.h(76,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  TestTargemGames.vcxproj -> E:\VSC\TestTargemGames\x64\Debug\TestTargemGames.exe
