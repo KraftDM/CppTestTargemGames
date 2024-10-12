@@ -9,12 +9,7 @@
 
 int main()
 {
-    std::vector<const char*> base_strings = { "Pie is delicious", "Apple", "Purple", "Red", "Circle", "Salt", "arc", "ara", "art", "artificial"};
-
-    std::vector<String> strings;
-    for (const char* str : base_strings) {
-        strings.push_back(String(str));
-    }
+    std::vector<String> strings = { "Pie is delicious", "Apple", "Purple", "Red", "Circle", "Salt", "arc", "red", "art", "artificial", "Red"};
 
     std::sort(strings.rbegin(), strings.rend());
     for (String str : strings) {

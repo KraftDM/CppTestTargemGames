@@ -81,7 +81,7 @@ public:
                 return false;
             i++;
         }
-        return i == strlen(data);
+        return strlen(data) < strlen(b.data);
     }
 };
 
